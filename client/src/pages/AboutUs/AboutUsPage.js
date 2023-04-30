@@ -5,6 +5,7 @@ import HiteshPhoto from "../../faces_photos/Hitesh.jpg";
 import AbhishekPhoto from "../../faces_photos/abhishek.jpg";
 import ViwinPhoto from "../../faces_photos/viwin.jpg";
 import KarthikPhoto from "../../faces_photos/karthik.jpg";
+import Defaultimg from "../../faces_photos/default.jpg"
 
 import "./about_us.css";
 import Navbar from "../../components/Navbar/Navbar";
@@ -210,25 +211,34 @@ const AboutUsPage = (props) => {
 					</div>
 					<div className="row">
 						{generateInformation({
-							name: "Rohith Boppey",
-							image_url: RohithPhoto,
-						})}
-						{generateInformation({
-							name: "Hitesh Malla",
-							image_url: HiteshPhoto,
-						})}
-						{generateInformation({
-							name: "Karthik D",
-							image_url: KarthikPhoto,
-						})}
-						{generateInformation({
 							name: "Viwin Kumar Padala",
-							image_url: ViwinPhoto,
+							image_url: Defaultimg,
 						})}
 						{generateInformation({
-							name: "Abhishek D",
-							image_url: AbhishekPhoto,
+							name: "Rahul Katini",
+							image_url: Defaultimg,
 						})}
+						{generateInformation({
+							name: "Sai Kiran R",
+							image_url: Defaultimg,
+						})}
+						{generateInformation({
+							name: "Santosh K",
+							image_url: Defaultimg,
+						})}
+						{generateInformation({
+							name: "Sai Ramya Lanka",
+							image_url: Defaultimg,
+						})}
+						{generateInformation({
+							name: "Alapati Sreelekha",
+							image_url: Defaultimg,
+						})}
+						{generateInformation({
+							name: "Sri Sivani D",
+							image_url: Defaultimg,
+						})}
+						
 					</div>
 				</div>
 			</div>
